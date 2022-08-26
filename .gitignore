@@ -1,0 +1,11 @@
+# IDE Stuff
+/.idea
+/nbproject
+
+# OS crappy files
+.DS_Store
+Thumbs.db
+
+# Dependencies directories
+/node_modules
+/vendor
