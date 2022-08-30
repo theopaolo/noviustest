@@ -1189,6 +1189,8 @@ li, .date-next, .date-prev {
   transform: rotate(27deg);
 }
 
+/* Calendar */
+
 input::-moz-placeholder {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -1203,6 +1205,41 @@ input::placeholder {
   text-transform: uppercase;
   color: inherit;
   overflow: visible;
+}
+
+.flatpickr-calendar {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-shadow: 0 22px 24px 8px rgba(0,0,0,0.4);
+  --tw-shadow-colored: 0 22px 24px 8px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.flatpickr-calendar .flatpickr-month {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 0 26 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.flatpickr-day:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 0 26 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.flatpickr-current-month .numInputWrapper span.arrowDown:after, .flatpickr-current-month .numInputWrapper span.arrowUp:after{
+  border-top-color: rgb(255 255 255 / 90%);
+  border-bottom-color: rgb(255 255 255 / 90%);
+}
+
+.flatpickr-months  .flatpickr-prev-month svg,.flatpickr-months .flatpickr-next-month svg {
+  fill: white;
+}
+
+.flatpickr-months .flatpickr-prev-month:hover svg, .flatpickr-months .flatpickr-next-month:hover svg {
+  fill: black;
 }
 
 .after\:mx-2::after {
