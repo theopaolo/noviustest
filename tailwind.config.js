@@ -9,9 +9,9 @@ module.exports = {
       },
     },
     fontFamily: {
-      'sans': ['Gotham', 'system-ui','Helvetica','Arial','sans-serif'],
-      'mono': ['Archerbold', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
-      'body': ['"Gotham"', 'Helvetica','Arial','sans-serif'],
+      'sans': ["Gotham", "sans-serif"],
+      'mono': ["Archerbold", 'monospace'],
+      'body': ["Gotham", 'sans-serif'],
     },
     // container: {
     //   center: true,

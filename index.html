@@ -15,7 +15,7 @@
 <body class="container mx-auto my-8">
 	<header class="flex flex-row mb-8">
 			<div class="cine-selector flex items-center">
-				<div class="logo bg-white uppercase"><h1>cinémas<span class="text-red-650">novius</h1></div>
+				<div class="logo bg-white uppercase"><h1>cinémas<span class="text-red-650 font-medium">novius</h1></div>
 				<ul class="cine-list relative">
 					<li>cinéma 1</li>
 					<li>cinéma 2</li>
@@ -71,7 +71,7 @@
 							x-on:click="toggle()"
 							:aria-expanded="open"
 							:aria-controls="$id('dropdown-button')"
-							type="button" class="bg-red-650 p-4 uppercase font-bold text-white hover:bg-red-500">billeterie</button>
+							type="button" class="bg-red-650 p-4 uppercase font-bold text-white hover:opacity-50">billeterie</button>
 
 						<div x-ref="panel"
 								x-show="open"
