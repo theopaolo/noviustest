@@ -88,7 +88,7 @@ transition: color .3s ease-in-out;
 }
 /* Programme */
 .programme {
-  @apply text-red-650 text-sm font-normal ml-auto mr-auto flex items-center uppercase font-bold border-b border-red-650;
+  @apply text-red-650 text-sm ml-auto mr-auto flex items-center uppercase font-bold border-b border-red-650;
 }
 
 /* Cinelist */
@@ -134,7 +134,7 @@ transition: color .3s ease-in-out;
 /* Dropdowns */
 
 .cine-list-drop {
-  @apply bg-white py-8 px-4  absolute left-3 right-3 m-auto top-12 text-black text-center shadow-[0_22px_24px_8px_rgba(0,0,0,0.4)];
+  @apply bg-white py-8 px-1  absolute left-3 right-3 m-auto top-12 text-black text-center shadow-[0_22px_24px_8px_rgba(0,0,0,0.4)];
 }
 
 .cine-prog-drop {
