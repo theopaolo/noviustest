@@ -34,3 +34,5 @@ Vous pouvez joindre à votre email des remarques, votre méthodologie, les outil
 Après l'entretient avec Tony j'ai compris que les technos habituelles chez Novius étaient Tailwind et Alipne.js. J'ai donc utilisé ces tech dans la réalisation du test d'intégration.
 
 La lib *flatpicker* est utilisé afin d'optenir un style de calendrier consistant sur différents navigateurs.
+
+Version en ligne : https://theogoedert.com/test-novius/

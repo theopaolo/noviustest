@@ -5,8 +5,8 @@
 /* Types */
 @font-face {
   font-family: 'Archerbold';
-  src: url('../fonts/Archer/archerboldpro-webfont.woff2') format('woff2'),
-       url('../fonts/Archer/archerboldpro-webfont.woff') format('woff');
+  src: url('../fonts/Archer/archerboldpro.woff2') format('woff2'),
+       url('../fonts/Archer/archerboldpro.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
