@@ -31,6 +31,6 @@ Vous pouvez joindre à votre email des remarques, votre méthodologie, les outil
 
 ## Espace libre candidat
 
-Ici, vous pouvez ajouter toute information nécessaire à l'installation de votre projet. 
+Après l'entretient avec Tony j'ai compris que les technos habituelles chez Novius étaient Tailwind et Alipne.js. J'ai donc utilisé ces tech dans la réalisation du test d'intégration.
 
-Vous pouvez aussi expliquer vos choix techniques etc.
+La lib *flatpicker* est utilisé afin d'optenir un style de calendrier consistant sur différents navigateurs.
