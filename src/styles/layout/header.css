@@ -1,0 +1,54 @@
+/* HEADER */
+
+/* Logo  */
+.logo {
+  position: relative;
+}
+
+.logo h1:before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: solid black 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: -26px;
+  z-index: -1;
+}
+
+.logo h1:after {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  border: solid black 2px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  left: -16px;
+  z-index: -1;
+}
+
+/* Cinelist */
+.cine-list li {
+  @apply italic relative ml-16 mr-8 border-b border-transparent hover:border-novred transition-all;
+}
+
+.cine-list li.active {
+  color: #e2001a;
+}
+
+.cine-list:before {
+  content: " ";
+  height: 94px;
+  width: 1px;
+  bottom: calc(50% - 47px);
+  position: absolute;
+  background-color: #808080;
+  margin-inline: 2rem;
+}

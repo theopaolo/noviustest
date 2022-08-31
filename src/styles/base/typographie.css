@@ -1,0 +1,49 @@
+/* Types */
+@font-face {
+  font-family: 'Archerbold';
+  src: url('../../fonts/Archer/archerboldpro.woff2') format('woff2'),
+       url('../../fonts/Archer/archerboldpro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../fonts/Gotham/GothamPro.woff2') format('woff2'),
+       url('../../fonts/Gotham/GothamPro.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../fonts/Gotham/GothamPro-Bold.woff2') format('woff2'),
+       url('../../fonts/Gotham/GothamPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../fonts/Gotham/GothamPro-Medium.woff2') format('woff2'),
+       url('../../fonts/Gotham/GothamPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('../../fonts/Gotham/GothamPro-MediumItalic.woff2') format('woff2'),
+       url('../../fonts/Gotham/GothamPro-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto/Roboto-Regular.woff2') format('woff2'),
+       url('../../fonts/Roboto/Roboto-Regular.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}

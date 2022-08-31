@@ -3,10 +3,15 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {
-      colors: {
-        'red-650': '#e2001a',
-      },
+    colors: {
+      transparent: "transparent",
+      novred: '#e2001a',
+      white: '#fff',
+      black: '#222',
+      gray : {
+        200: '#f7fafc',
+        300: '#edf2f7',
+      }
     },
     fontFamily: {
       'sans': ["Gotham", "sans-serif"],

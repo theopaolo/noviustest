@@ -1,0 +1,29 @@
+/* Calendar */
+input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: inherit;
+  overflow: visible;
+}
+
+.flatpickr-calendar {
+  @apply bg-white shadow-[0_22px_24px_8px_rgba(0,0,0,0.4)];
+}
+
+.flatpickr-calendar .flatpickr-month {
+  @apply text-white bg-novred;
+}
+.flatpickr-day:hover {
+  @apply bg-novred text-white;
+}
+.flatpickr-current-month .numInputWrapper span.arrowDown:after, .flatpickr-current-month .numInputWrapper span.arrowUp:after{
+  border-top-color: rgb(255 255 255 / 90%);
+  border-bottom-color: rgb(255 255 255 / 90%);
+}
+.flatpickr-months  .flatpickr-prev-month svg,.flatpickr-months .flatpickr-next-month svg {
+  fill: white;
+}
+.flatpickr-months .flatpickr-prev-month:hover svg, .flatpickr-months .flatpickr-next-month:hover svg {
+  fill: black;
+}

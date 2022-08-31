@@ -1,0 +1,65 @@
+/* Dates section */
+.date {
+  @apply bg-gray-200 p-3 mx-2;
+  transition: background 0.3s ease-in-out;
+}
+.date:hover {
+  cursor: pointer;
+  @apply bg-gray-300;
+}
+
+.date:first-child {
+  margin-left: 2.5rem;
+}
+
+.date:last-child {
+  margin-right: 2.5rem;
+}
+
+.dates-selector::after, .dates-selector::before {
+  content: " ";
+  height: 55px;
+  width: 1px;
+  bottom: calc(50% - 27.5px);
+  position: absolute;
+  background-color: #808080;
+}
+
+.dates-selector::after {
+  right: 0;
+}
+
+.dates-selector::before {
+  left: 0;
+}
+
+.date-next, .date-prev {
+  width: 1rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #808080;
+}
+
+.date-next:hover, .date-prev:hover  {
+  cursor: pointer;
+  color: #e2001a;
+}
+
+.date-next:before ,.date-next:after, .date-prev:before, .date-prev:after {
+  border-right: 1px solid;
+  content: '';
+  display: block;
+  color: inherit;
+  height: 12px;
+  margin-top: -10px;
+  position: absolute;
+  transform: rotate(153deg);
+  top: 50%;
+  width: 0;
+}
+.date-next:after, .date-prev:after {
+  margin-top: 0px;
+  transform: rotate(27deg);
+}

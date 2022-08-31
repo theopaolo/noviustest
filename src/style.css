@@ -1,0 +1,17 @@
+
+@import "tailwindcss/base";
+
+@import "./styles/base/typographie.css";
+
+@import "tailwindcss/components";
+
+@import "./styles/components/buttons.css";
+@import "./styles/components/calendar.css";
+@import "./styles/components/dates.css";
+@import "./styles/components/slider.css";
+
+@import "tailwindcss/utilities";
+
+@import "./styles/layout/header.css";
+@import "./styles/layout/navigation.css";
+@import "./styles/pages/home.css";

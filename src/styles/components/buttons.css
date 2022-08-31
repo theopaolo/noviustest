@@ -1,0 +1,4 @@
+/* Programme button*/
+.programme {
+  @apply text-novred text-sm ml-auto mr-auto flex items-center uppercase font-bold border-b border-novred;
+}

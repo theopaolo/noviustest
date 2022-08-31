@@ -1,0 +1,79 @@
+/* Main nav */
+[role="navigation"] li{
+  @apply uppercase font-bold;
+}
+
+ [role="navigation"] li:after, .topnav li:after {
+   content: "-";
+   margin: 0 1.25rem;
+   color: #e2001a;
+ }
+
+ [role="navigation"] li:last-child:after, .topnav li:last-child:after {
+   margin: unset;
+   content: unset;
+ }
+
+ .cine-list li:hover, [role="navigation"] li:hover, .topnav li:hover{
+   cursor: pointer;
+   color: #e2001a;
+  }
+
+ /* Dropdowns */
+
+ .cine-list-drop {
+   @apply bg-white py-8 px-1  absolute left-3 right-3 m-auto top-12 text-black text-center shadow-[0_22px_24px_8px_rgba(0,0,0,0.4)];
+ }
+
+ .cine-prog-drop {
+   @apply bg-white py-4 absolute -left-3 m-auto top-5 text-black text-center shadow-[0_22px_24px_8px_rgba(0,0,0,0.4)];
+   width: fit-content;
+   top: 2rem;
+ }
+
+ .cine-prog-drop:before, .cine-list-drop:before {
+   content: "";
+   position: absolute;
+   background-color: white;
+   height: 12px;
+   width: 12px;
+   transform: rotate(45deg);
+   left: 0;
+   right: 0;
+   margin:auto;
+   top: -6px;
+ }
+
+ .cine-prog-drop a {
+   position: relative;
+   color:  #e2001a;
+   display: list-item;
+   list-style: disc;
+   font-size: 14px;
+   text-transform: none;
+   font-weight: 400;
+   text-align: left;
+   margin-block-end: .5rem;
+   margin-inline: 2rem;
+   width: max-content;
+ }
+
+ .cine-prog-drop a span {
+   color: black;
+   padding-left: 0.25rem;
+ }
+
+ .cine-prog-drop a span:hover {
+   color: #e2001a;
+ }
+
+ .cine-prog-drop a:last-child {
+   margin-bottom: unset;
+ }
+
+ .cine-prog-drop a::before {
+   content: "|";
+   left: -4px;
+   position: absolute;
+   color: #e2001a;
+ }
