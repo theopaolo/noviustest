@@ -35,4 +35,4 @@ Après l'entretient avec Tony j'ai compris que les technos habituelles chez Novi
 
 La lib *flatpicker* est utilisé afin d'optenir un style de calendrier consistant sur différents navigateurs.
 
-Version en ligne : https://theogoedert.com/test-novius/
+Version en ligne : https://noviustest.vercel.app/
