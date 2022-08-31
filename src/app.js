@@ -34,3 +34,11 @@ bullets.forEach(bullet => {
     bullet.classList.add('active');
   });
 });
+
+// Update bullet on glide move  and add active class
+glide.on('move', function() {
+  bullets.forEach(bullet => {
+    bullet.classList.remove('active');
+  });
+  bullets[glide.index].classList.add('active');
+});
