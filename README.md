@@ -34,5 +34,34 @@ Vous pouvez joindre à votre email des remarques, votre méthodologie, les outil
 Après l'entretient avec Tony j'ai compris que les technos habituelles chez Novius étaient Tailwind et Alipne.js. J'ai donc utilisé ces tech dans la réalisation du test d'intégration.
 
 La lib *flatpicker* est utilisé afin d'optenir un style de calendrier consistant sur différents navigateurs.
+La lib *Gliderjs* est utilisé pour le slider.
 
-Version en ligne : https://noviustest.vercel.app/
+## ⚙️ Afin de lance le projet
+
+
+### 📦 NPM ou PNPM
+**Installer les dépendances**
+```
+npm install
+---
+pnpm install
+```
+
+**Lancer le server local**
+
+```
+npm run dev
+---
+pnpm run dev
+```
+
+**Build le projet**
+
+```
+npm run build
+---
+pnpm run build
+```
+
+## Version en ligne
+[Novius test](https://noviustest.vercel.app/)
